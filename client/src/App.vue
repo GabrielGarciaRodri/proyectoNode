@@ -2,7 +2,10 @@
 </script>
 
 <template>
-    <router-view>
-    </router-view>
+  <div id="app">
+    <router-view />
+  </div>
 </template>
+
+
 

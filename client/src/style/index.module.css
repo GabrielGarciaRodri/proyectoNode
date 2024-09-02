@@ -1,0 +1,45 @@
+
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background: #121212;
+  }
+  
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+  }
+  
+  .container{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10% 10% 84% 30%;
+    grid-template-areas: 
+    "user"
+    "search"
+    "movie"
+    "soon";
+  }
+  
+  
+  .user{
+    grid-area: user;
+    padding: 10px;
+  }
+  
+  .Search_movie{
+    grid-area: search;
+  }
+  
+  .movies{
+    grid-area: movie;
+  }
+  
+  .coming_soon{
+    grid-area: soon;
+  }
